@@ -2,7 +2,6 @@ import mailer from "../modules/mailer/index.js"
 import displayView from "../../../lib/xander-email.js"
 
 const viewsPath = "./examples/hello-world/modules/mailer/views"
-const componentsPath = "./examples/hello-world/modules/mailer/views/components"
 
 export async function sendEmail(req, res) {
   try {
@@ -10,7 +9,7 @@ export async function sendEmail(req, res) {
       from: "Login System Support <login-system-support@gmail.com>",
         to: "Login System Client <login-system-client@gmail.com>",
         subject: "Test",
-        html: displayView("black", viewsPath, componentsPath)
+        html: displayView("body", viewsPath)
     })
   
     return res.status(200).json({ message: "OK" })
