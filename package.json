@@ -3,23 +3,24 @@
   "type": "module",
   "version": "1.0.0",
   "description": "A library to facilitate the use of nodemailer",
-  "main": "lib/xander-email.js",
+  "main": "index.js",
   "author": "ZaikoXander",
   "license": "MIT",
-  "repository": "ZaikoXander/xander-email",
   "scripts": {
-    "dev": "nodemon examples/hello-world/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZaikoXander/xander-email.git"
   },
   "keywords": [
-    "express",
     "nodemailer",
+    "nodemailer-plugin",
     "email",
     "mail"
   ],
-  "devDependencies": {
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "nodemailer": "^6.7.8",
-    "nodemon": "^2.0.19"
-  }
+  "bugs": {
+    "url": "https://github.com/ZaikoXander/xander-email/issues"
+  },
+  "homepage": "https://github.com/ZaikoXander/xander-email#readme"
 }
