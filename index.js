@@ -1,3 +1,3 @@
-import xanderEmail from "./lib/xander-email.js"
+"use strict"
 
-export default xanderEmail
+module.exports = require("./lib/xander-email")
