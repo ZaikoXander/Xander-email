@@ -1,6 +1,6 @@
 {
   "name": "xander-email",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "A library to facilitate the use of nodemailer",
   "main": "index.js",
   "types": "lib/xander-email.d.ts",
@@ -25,7 +25,11 @@
     "nodemailer",
     "nodemailer-plugin",
     "email",
-    "mail"
+    "mail",
+    "views",
+    "components",
+    "variables",
+    "typescript"
   ],
   "bugs": {
     "url": "https://github.com/ZaikoXander/xander-email/issues"
